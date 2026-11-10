@@ -60,8 +60,8 @@ const FOOTER_HTML = `
       </div>
       <div>
         <h4>Контакты</h4>
-        <a href="tel:+74951234567">+7 (495) 123-45-67</a>
-        <a href="mailto:info@metall-ist.ru">info@metall-ist.ru</a>
+        <a href="tel:+74993993501">+7 (499) 399-35-01</a>
+        <a href="mailto:info@metall-east.ru">info@metall-ist.ru</a>
         <div class="requisites">
           ООО «МЕТАЛЛ-ИСТ»<br>
           ИНН 7704429127 · ОГРН 1177746634515<br>
