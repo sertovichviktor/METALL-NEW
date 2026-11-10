@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог — МЕТАЛЛ-ИСТ</title>
+<meta name="description" content="Каталог нержавеющего металлопроката: трубы, листы, фитинги, краны, фланцы.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<div class="page">
+  <div class="container">
+    <div class="page-head">
+      <div class="eyebrow">Каталог</div>
+      <h1>Нержавеющий металлопрокат<br>и арматура</h1>
+      <p>Цены указаны с НДС. Для объёмов от 1 тонны действуют индивидуальные условия.</p>
+    </div>
+    <div class="catalog-layout">
+      <aside class="filters">
+        <h3>Фильтры</h3>
+        <input class="search-input" id="search" type="text" placeholder="Поиск по названию...">
+        <div class="filter-group">
+          <p>Категории</p>
+          <div id="catFilters"></div>
+        </div>
+        <button class="btn btn-ghost" id="resetFilters" style="width:100%;justify-content:center">Сбросить фильтры</button>
+      </aside>
+      <div class="products-grid" id="productsGrid"></div>
+    </div>
+  </div>
+</div>
+
+<div id="site-footer"></div>
+<script src="js/data.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/main.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>
